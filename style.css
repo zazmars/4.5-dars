@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-a {
+    color: #737373;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    transition: 0.7s;
+}
+
+.header-a:hover {
+    color: #B90160;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+}
+
+.btn {
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    width: 179px;
+    height: 53px;
+    opacity: 1;
+    border-radius: 7px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+
+}
+
+h1 {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: black;
+    width: 596px;
+    margin-bottom: 58px;
+}
+
+.section-on {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: url(./img/38eee41b54f800b9dd7d897b6e7ee2f83566785a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+h2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.lol {
+    display: none;
+}
+
+.e {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(155, 47, 182);
+
+}
+
+
+
+.imgs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    margin-bottom: 20px;
+
+}
+
+.im {
+    height: 200px;
+}
+
+.section-three {
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+    height: 357px;
+    width: 100%;
+    padding-top: 70px;
+}
+
+
+
+.card {
+    width: 436px;
+    height: 187px;
+    border-radius: 9px;
+    background-color: white;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sas {
+    position: relative;
+    bottom: 90px;
+    left: 140px;
+}
+
+.ko {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+}
+
+footer {
+    height: 300px;
+}
+
+.sets {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+
+
+
+@media (max-width:992px) {
+
+    body {
+        padding-left: 70px;
+        padding-right: 30px;
+        padding-top: 148px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .lolo {
+        width: 368px;
+    }
+
+    .jij {
+        position: relative;
+        top: 100px;
+    }
+
+    h1 {
+        font-family: Roboto;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 0%;
+        width: 323px;
+    }
+
+    .btn {
+        width: 141px;
+        height: 42px;
+        font-family: Roboto;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+
+    }
+
+    .imgs {
+        flex-direction: column;
+
+    }
+
+    .ki {
+        width: 594px;
+        height: 325px;
+
+    }
+
+    .section-three {
+        height: 948px;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .ki {
+        margin-left: 50px;
+        width: 800px;
+        height: 500px;
+    }
+
+}
+
+
+
+@media (max-width:576px) {
+
+
+    .lol {
+        display: block;
+    }
+
+    .lolo {
+        display: none;
+    }
+
+    .jij {
+        margin-bottom: 120px;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .sets {
+        flex-direction: column;
+    }
+
+    .section-on {
+        display: none;
+    }
+
+    .section-one {
+        display: block;
+    }
+
+    .ki {
+        width: 470px;
+        height: 363px;
+        position: relative;
+        right: 40px;
+    }
+
+
+    .section-three {
+        margin-left: 30px;
+        position: relative;
+        right: 40px;
+    }
+    
+    
+
+}
